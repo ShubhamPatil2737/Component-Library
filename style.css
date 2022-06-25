@@ -2,10 +2,12 @@
 
 body{
     font-family: 'Merriweather', serif;
+    margin: 0px;
 }
 :root{
        --primary-color: #443af9;
        --dark-gray: #64748b;
+       --off-white:#cbd5e1;
 }
 hr{
     margin: 2rem 0rem;
@@ -22,7 +24,6 @@ hr{
 
 .link{
     padding: 0.5rem 1rem;
-    
     text-decoration: none;
 }
 
@@ -78,9 +79,33 @@ hr{
 }
 .hero .hero-header{
     color: var(--dark-gray);
+    text-align: center;
 
 }
 .hero .hero-header .focus-heading{
     color: var(--primary-color);
     padding-top: 1rem;
+}
+.section{
+    padding: 1rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+   background-color: var(--off-white);
+}
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+    
+}
+.footer .link{
+    color: white;
+}
+.footer .footer-list{
+    padding-inline-start: 0px;
 }
