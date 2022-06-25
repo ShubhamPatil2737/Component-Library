@@ -4,7 +4,8 @@ body{
     font-family: 'Merriweather', serif;
 }
 :root{
-       --primary-color: #6C63FF;
+       --primary-color: #443af9;
+       --dark-gray: #64748b;
 }
 hr{
     margin: 2rem 0rem;
@@ -66,4 +67,20 @@ hr{
 }
 .link-active{
     font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    margin: auto;
+    max-width: 350px;
+    display: block;
+}
+.hero .hero-header{
+    color: var(--dark-gray);
+
+}
+.hero .hero-header .focus-heading{
+    color: var(--primary-color);
+    padding-top: 1rem;
 }
