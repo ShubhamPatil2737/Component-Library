@@ -2,10 +2,11 @@
 
 body{
     font-family: 'Merriweather', serif;
-    margin: 0px;
+    margin: 0pxs;
+    
 }
 :root{
-       --primary-color: #443af9;
+       --primary-color:#7c3aed;
        --dark-gray: #64748b;
        --off-white:#cbd5e1;
 }
@@ -20,6 +21,7 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 .link{
@@ -74,8 +76,8 @@ hr{
 }
 .hero .hero-img{
     margin: auto;
-    max-width: 350px;
     display: block;
+  max-width: 350px;
 }
 .hero .hero-header{
     color: var(--dark-gray);
@@ -87,7 +89,7 @@ hr{
     padding-top: 1rem;
 }
 .section{
-    padding: 1rem;
+    padding: 2rem;
 }
 .section h1{
     text-align: center;
@@ -100,7 +102,7 @@ hr{
     color: white;
     text-align: center;
     padding: 1rem;
-    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     
 }
 .footer .link{
@@ -108,4 +110,15 @@ hr{
 }
 .footer .footer-list{
     padding-inline-start: 0px;
+}
+.footer-heading{
+    
+    font-size: larger;
+    padding: 1rem;
+}
+.footer .bx{
+   font-size: 35px;
+}
+.footer .bx:hover{
+    color: black;
 }
