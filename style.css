@@ -70,6 +70,7 @@ hr{
 }
 .link-active{
     font-weight: bold;
+    font-size: larger;
 }
 .hero{
     padding: 2rem;
