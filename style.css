@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Merriweather', serif;
-    margin: 0pxs;
+    margin: 0px;
     
 }
 :root{
@@ -78,7 +78,8 @@ hr{
 .hero .hero-img{
     margin: auto;
     display: block;
-  max-width: 300px;
+  width: 230px;
+  height: 250px;
   border-radius: 50%;
 }
 .hero .hero-header{
